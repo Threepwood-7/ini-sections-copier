@@ -1,0 +1,14 @@
+# Configuration for INI section copier
+
+# File paths
+[files]
+input = "wincmd.ini"    # Source INI file
+target = "wincmd_large.ini"  # Target INI file to modify
+
+[sec]
+# Sections to copy
+sections = [
+    "Shortcuts",
+    "DirMenu",
+    "user"
+]
